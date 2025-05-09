@@ -225,16 +225,16 @@ span {
         content: "Systems Engineer";
     }
     21%, 40%{
-        content: "Gamer";
-    }
-    41%, 60%{
         content: "Web developer";
     }
+    41%, 60%{
+        content: "Math fan";
+    }
     61%, 80%{
-        content: "Engineer";
+        content: "Mexican";
     }
     81%, 100%{
-        content: "Mexican";
+        content: "Gamer";
     }
 }
 
