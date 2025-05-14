@@ -210,7 +210,7 @@ span {
 .typing-text span::after {
     content: "";
     background-color: black;
-    position: absolute;
+    position: relative;
     width: calc(100% + 8px);
     height: 100%;
     border-left: 3px solid black;
@@ -220,7 +220,7 @@ span {
 
 @keyframes cursor {
     to {
-        border-left: 3px solid #2980b9;
+        border-left: 3px solid white;
     }
 }
 
