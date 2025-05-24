@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Owynn Website</title>
 </head>
+
 <body>
     <header>
         <a href="#" class="logo">Owynn</a>
@@ -17,29 +19,34 @@
             <a href="#">Education</a>
             <a href="#">Experience</a>
             <a href="#">Contact</a>
-            </nav>
-            </header>
-            <section class="home">
-                <div class="home-img">
-                    <img src="main.jpg" alt="">
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="images/main.jpg" alt="">
+        </div>
+        <div>
+            <div class="home-content">
+                <h1>Hi, It's <span>Owynn</span></h1>
+                <h3 class="typing-text">I'm a <span></span></h3>
+                <p>Via ad veritatem et scientiam est educatio, et discipulo esse debeat experientia dulcis</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/owyni/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Owyni"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://x.com/_Owynn_"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" class="fa-brands fa-discord open-modal"></a>
                 </div>
-                <div>
-                    <div class="home-content">
-                        <dialog id="modal">
-                            
-                            <button id="close-modal-btn">Close</button>
-                        </dialog>
-                        <h1>Hi, It's <span>Owynn</span></h1>
-                        <h3 class="typing-text">I'm a <span></span></h3>
-                        <p>Via ad veritatem et scientiam est educatio, et discipulo esse debeat experientia dulcis</p>
-                        <div class="social-icons">
-                            <a href="https://www.linkedin.com/in/owyni/"><i class="fa-brands fa-linkedin"></i></a>
-                            <a href="https://github.com/Owyni"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://x.com/_Owynn_"><i class="fa-brands fa-x-twitter"></i></a>
-                            <button id="open-modal"><i class="fa-brands fa-discord"></i></button>
-                        </div>
-                        <a href="#" class="btn">Hire me </a>
-                    </div>
-            </section>
-            </body>
-            </html>
+                <a href="#" class="btn">Hire me</a>
+            </div>
+    </section>
+    <section class="modal">
+        <div class="modal-container">
+            <img src="images/Discord_Profile_Photo_Owynn.jpg" class="modal-img">
+            <h2 class="discord-name">Owynn</h2>
+            <a href="#" class="close-modal">x</a>
+        </div>
+    </section>
+    <script src="js/myScript.js"></script>
+</body>
+
+</html>
