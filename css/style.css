@@ -14,6 +14,37 @@ html {
     font-size: 62.5%;
 }
 
+.dark-mode {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.dark-mode:hover i{
+    color: #2980b9;
+}
+
+body.dark-mode-class,
+nav a.dark-mode-class,
+section.dark-mode-class{
+    color: black;
+    background-color: white;
+}
+
+body.dark-mode-class .social-icons a,
+body.dark-mode-class .social-icons button,
+body.dark-mode-class .logo {
+    color: #2980b9;
+}
+
+body.dark-mode-class .social-icons a:hover,
+body .dark-mode-class .home-content .btn:hover,
+body.dark-mode-class .social-icons button:hover {
+    color: white;
+    background-color: #2980b9;
+    box-shadow: 0 0 25px #2980b9;
+}
+
+
 body {
     width: 100%;
     height: 100vh;
@@ -41,7 +72,6 @@ header {
     font-size: 3rem;
     color: #2980b9;
     font-weight: 800;
-    cursor: pointer;
     transition: 0.5s ease;
 }
 
@@ -54,7 +84,6 @@ nav a {
     color: white;
     margin-left: 4rem;
     font-weight: 500;
-    transition: 0.3s ease;
     border-bottom: 3px solid transparent;
 }
 
@@ -116,6 +145,16 @@ section {
     line-height: 1.3;
 }
 
+.home .home-content a {
+    background-color: transparent;
+}
+
+.home .home-content a:hover {
+    background-color: #2980b9;
+    color: black;
+    box-shadow: 0 0 25px #2980b9;
+}
+
 span {
     color: #2980b9;
 }
@@ -128,10 +167,6 @@ span {
 
 .home-content p{
     font-size: 1.7rem;
-}
-
-.home-img {
-    border-radius: 50%;
 }
 
 .home-img img {
@@ -153,7 +188,7 @@ span {
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.3 ease;
-    color: white;
+    color: #2980b9;
 }
 
 .social-icons button {
@@ -347,4 +382,3 @@ span {
 .modal img {
     min-width: 50px;
 }
-
