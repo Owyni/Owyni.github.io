@@ -382,3 +382,17 @@ span {
 .modal img {
     min-width: 50px;
 }
+
+.dark-mode {
+    position: fixed;
+    top: 2rem;
+    right: 3rem;
+    z-index: 200;
+    background: transparent;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
